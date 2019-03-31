@@ -11,7 +11,8 @@ function Bio() {
         const { author } = data.site.siteMetadata
         return (
           <p style={{ marginBottom: rhythm(2.5) }}>
-            The manic scibblings of <strong>{author}</strong>.
+            The manic scibblings of <strong>{author}</strong>. I have a lot of
+            strong opinions, most of them are probably wrong.
           </p>
         )
       }}
